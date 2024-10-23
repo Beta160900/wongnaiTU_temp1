@@ -1,0 +1,12 @@
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+<div class="bg-white mt-20 mx-auto overflow-hidden rounded-[8%] cursor-pointer shadow-sm hover:shadow-lg hover:scale-105 transition ease-in-out duration-500 hover:underline aspect-[1/1] w-[60%]">
+    <div class="relative w-full h-full">
+    <img src="img/foodandshop/เจ้โอวข้าวต้มเป็ด.jpg" class="w-full h-full object-cover shadow-sm" alt="">
+    <div class="absolute bottom-0 left-0 p-4 bg-white bg-opacity-80 w-full">
+        <span class="block font-bold cardName">เจ้โอว ข้าวต้มเป็ด</span>
+        <span class="cardShort">📍 ที่อยู่:โดมทอง <br>✨ เมนูแนะนำ: ข้าวมันไก่ต้ม</span>
+    </div>
+    </div>
+</div>
+//card อีกแบบ

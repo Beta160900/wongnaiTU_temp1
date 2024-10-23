@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.displaySlide{
+    display:block;
+    animation-name:fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from {opacity :0.5}
+    to {opacity:1}
+  }
+
+.card{
+    @apply bg-white mt-20 mx-auto overflow-hidden rounded-[8%] cursor-pointer shadow-sm hover:shadow-lg hover:scale-105 transition ease-in-out duration-500 hover:underline aspect-[1/1] w-[60%];
+}
+.cardName{
+    @apply block mx-7 mt-5 text-xl font-bold;
+}
+.cardShort{
+    @apply block mt-4 ml-5 mb-5;
+}
+.nevButton{
+    @apply bg-white rounded-full m-3 p-4 hover:bg-gray-100 hover:scale-105 hover:shadow-md transition ease-in duration-300;
+}
